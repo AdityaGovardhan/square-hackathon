@@ -7,9 +7,6 @@
     "@material-ui/icons": "^4.9.1",
     "@okta/jwt-verifier": "^1.0.0",
     "@okta/okta-react": "^3.0.1",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -26,8 +23,7 @@
     "recompose": "^0.30.0",
     "sequelize": "^5.21.10",
     "sqlite3": "^4.2.0",
-    "uuid": "^8.0.0",
-    "uuidv4": "^6.0.8"
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "npm-run-all --parallel watch:server start:web",

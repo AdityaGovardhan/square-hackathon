@@ -7,7 +7,7 @@ import {
 } from '@material-ui/core';
 import { Error as ErrorIcon, Close as CloseIcon } from '@material-ui/icons';
 import { compose, withState } from 'recompose';
-import uuid from 'uuidv4';
+import uuid from 'uuid';
 
 const styles = theme => ({
   snackbarContent: {
